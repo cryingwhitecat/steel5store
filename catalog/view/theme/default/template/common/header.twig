@@ -54,8 +54,9 @@
 <nav id="top">
   <div class="container">
     <div id="top-links" class="nav pull-right">
-      <ul class="list-inline">
-        <li><a href="{{ contact }}"><i class="fa fa-phone"></i></a> <span class="hidden-xs hidden-sm hidden-md">{{ telephone }}</span></li>
+      <ul class="list-inline" style="margin: 0px 5px 5px 0px;">
+        <li><a href="{{ instagram_link }}"><img src="{{instagram_logo}}" style="height: 20px; width: 20px;" alt="insta logo"></a></li>
+        <!--<li><a href="{{ contact }}"><i class="fa fa-phone"></i></a> <span class="hidden-xs hidden-sm hidden-md">{{ telephone }}</span></li>-->
         <li class="dropdown"><a href="{{ account }}" title="{{ text_account }}" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <span class="hidden-xs hidden-sm hidden-md">{{ text_account }}</span> <span class="caret"></span></a>
           <ul class="dropdown-menu dropdown-menu-right">
             {% if logged %}

@@ -16,3 +16,4 @@ $_['text_download']      = 'Файлы для скачивания';
 $_['text_logout']        = 'Выход';
 $_['text_checkout']      = 'Оформление заказа';
 $_['text_search']        = 'Поиск';
+$_['instagram_link']	 = 'https://instagram.com/steel5store';

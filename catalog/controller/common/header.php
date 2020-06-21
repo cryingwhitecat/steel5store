@@ -86,10 +86,11 @@ class ControllerCommonHeader extends Controller {
 		$data['checkout'] = $this->url->link('checkout/checkout', '', true);
 		$data['contact'] = $this->url->link('information/contact');
 		$data['telephone'] = $this->config->get('config_telephone');
-		
+ 		$data['instagram_link'] = $this->language->get('instagram_link');
 		$data['language'] = $this->load->controller('common/language');
 		$data['currency'] = $this->load->controller('common/currency');
 		$data['currency'] = $this->load->controller('common/currency');
+		$data['instagram_logo'] = $server . 'image/' . 'insta_icon.png';
 		if ($this->config->get('configblog_blog_menu')) {
 			$data['blog_menu'] = $this->load->controller('blog/menu');
 		} else {
@@ -98,7 +99,6 @@ class ControllerCommonHeader extends Controller {
 		$data['search'] = $this->load->controller('common/search');
 		$data['cart'] = $this->load->controller('common/cart');
 		$data['menu'] = $this->load->controller('common/menu');
-
 		return $this->load->view('common/header', $data);
 	}
 }
