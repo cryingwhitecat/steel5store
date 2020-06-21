@@ -1,5 +1,5 @@
 # Steel5Store deployment guide
-This document expains (hopefully) in detail how to deploy our online shop to a dedicated server. 
+This document expains (hopefully) in detail how to deploy our online shop to a dedicated server.  
 **Required server extensions:**
  - Web Server (Apache suggested)
  - PHP 5.4+
