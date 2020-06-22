@@ -8,7 +8,7 @@
   {% for payment_method in payment_methods %} 
   <tr>
     <td>{% if payment_method.code == code %} 
-      <input type="radio" name="payment_method" value="{{ payment_method.code }}" id="{{ payment_method.code }}" checked="checked" />
+      <input type="radio" style="background-color:purple !important; color:purple !important;" name="payment_method" value="{{ payment_method.code }}" id="{{ payment_method.code }}" checked="checked" />
       {% else %}   
       <input type="radio" name="payment_method" value="{{ payment_method.code }}" id="{{ payment_method.code }}" />
       {% endif %}</td>

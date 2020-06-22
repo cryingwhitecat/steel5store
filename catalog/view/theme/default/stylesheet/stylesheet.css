@@ -638,6 +638,7 @@ h2.price {
 	background-color: #ddd;
 	text-decoration: none;
 	cursor: pointer;
+	color: purple;
 }
 @media (max-width: 1200px) {
 	.product-thumb .button-group button, .product-thumb .button-group button + button {
